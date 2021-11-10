@@ -1,0 +1,44 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - name: Start Docker Daemon
+    command: sudo docker-up &
+  - before:  "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
+    name: Start App Smith
+    init: docker run -d --name appsmith -p 46397:80 -p 9001:9001 -v "$PWD/stacks:/appsmith-stacks" appsmith/appsmith-ce
+    command: docker logs -f appsmith
+  - before: "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
+    name: Use Pulumi
+    command: pulumi version
+  - before: "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
+    name: Install Python Requirements
+    init: pip install -r requirements.txt
+  - before: "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
+    name: Use QueryBook
+    command: cd querybook && make
+  - before: "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
+    name: Use Azure 
+    command: brew install azure-cli
+
+
+
+ports:
+  - port: 5000:5000
+    onOpen: ignore
+  - port: 46397:80
+    onOpen: ignore
+  - port: 9001:9001
+    onOpen: ignore
+  - port: 10001:10001
+    onOpen: ignore
+
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: true
+    addBadge: false
