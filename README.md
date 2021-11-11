@@ -59,7 +59,7 @@ Openjdk 11.0.13.
 ## Start Managed Kubernetes Cluster
 * Azure AKS 
 
-## Describe a Policy 
+## Define a Network Policy 
 * Pulumi
 * Terraform
 * ARM
