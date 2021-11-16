@@ -1,6 +1,5 @@
 # Open Source Workspace
-
-
+[![CodeQL](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml)
 ## Deploy Secure Hybrid Network to Azure 
 
 [![Secure Hybrid Network](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Fsamples%2Fmaster%2Fsolutions%2Fsecure-hybrid-network%2Fazuredeploy.json)
