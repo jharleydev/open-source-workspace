@@ -1,5 +1,5 @@
 # Open Source Workspace
-[![Kubesec](https://github.com/jharleydev/open-source-workspace/actions/workflows/kubesec-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/kubesec-analysis.yml) ![CodeQL](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml)
+[![Kubesec][(https://github.com/jharleydev/open-source-workspace/actions/workflows/kubesec-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/kubesec-analysis.yml) ![CodeQL][(https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml)
 
 
 ## Deploy Secure Hybrid Network to Azure 
