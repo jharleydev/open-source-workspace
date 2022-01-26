@@ -35,7 +35,7 @@ grpcio==1.41.0
 idna==3.2
 importlib-metadata==4.8.1
 ipykernel==6.4.1
-ipython==7.27.0
+ipython==7.31.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.5
 isort==5.9.3
