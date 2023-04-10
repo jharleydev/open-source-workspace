@@ -1,13 +1,13 @@
 # Open Source Workspace
-[![CodeQL](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jharleydev/open-source-workspace/)
+[![CodeQL](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml) 
 
 ## Deploy Secure Hybrid Network to Azure 
 
 [![Secure Hybrid Network](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Fsamples%2Fmaster%2Fsolutions%2Fsecure-hybrid-network%2Fazuredeploy.json)
 
-## Deploy with Pulumi 
-[![Deploy](https://get.pulumi.com/new/button.svg)](https://app.pulumi.com/new)
 
+# Try it out with Gitpod 
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jharleydev/open-source-workspace/)
 
 The default is to use the cloud hosted platforms as is but you can choose to install the software on your own servers if there are specifc compliance requirements for your project.  
 
