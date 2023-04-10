@@ -1,10 +1,6 @@
 # Open Source Workspace
 [![CodeQL](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/jharleydev/open-source-workspace/actions/workflows/codeql-analysis.yml) 
 
-## Deploy Secure Hybrid Network to Azure 
-
-[![Secure Hybrid Network](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Fsamples%2Fmaster%2Fsolutions%2Fsecure-hybrid-network%2Fazuredeploy.json)
-
 
 # Try it out with Gitpod 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jharleydev/open-source-workspace/)
@@ -136,7 +132,7 @@ Option to tell Pulumi to create a stack if one does not exists.
 
 [Making Multi-Cloud Waves with Betty Junod](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/making-multi-cloud-waves-with-betty-junod/)
 
-# Books 
+# Books To Read
 
 [Site Reliability Engineering](https://learning.oreilly.com/library/view/site-reliability-engineering/9781491929117/)
 
