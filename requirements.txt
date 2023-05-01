@@ -28,7 +28,7 @@ docutils==0.17.1
 entrypoints==0.3
 filelock==3.0.12
 flake8==3.9.2
-Flask==2.0.2
+Flask==2.3.2
 gitdb==4.0.7
 GitPython==3.1.18
 grpcio==1.41.0
