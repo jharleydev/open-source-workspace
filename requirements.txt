@@ -31,7 +31,7 @@ flake8==3.9.2
 Flask==2.0.2
 gitdb==4.0.7
 GitPython==3.1.18
-grpcio==1.41.0
+grpcio==1.53.0
 idna==3.2
 importlib-metadata==4.8.1
 ipykernel==6.4.1
